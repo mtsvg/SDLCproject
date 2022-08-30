@@ -47,7 +47,7 @@ public class Main {
         words.forEach((k, v)
                 -> wordsSorted.put(v, k));
 
-        //converts the tree map into a set to that the top entries can be accessed by index
+        //converts the tree map into a set so that the top entries can be accessed by index
         Set<Map.Entry<Integer, String> > entrySet = reverse.entrySet();
         Map.Entry<Integer, String>[] entryArray = entrySet.toArray(new Map.Entry[entrySet.size()]);
 
